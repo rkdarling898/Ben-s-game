@@ -7,6 +7,7 @@ class Player {
         this.ySpd = 0
         this.width = 40
         this.height = 40
+        this.axis = {x: this.x - this.width/2, y: this.y - this.height/2}
         this.direction = 0
         this.skills = {}
     }
